@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--FontAwesome-->
+    <script
+      src="https://kit.fontawesome.com/19ac240dca.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Animate It-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!--Internal-->
+    <link rel="stylesheet" href="style.css" />
+    <title>💻 André Almeida</title>
+  </head>
+  <body>
+    <!--MOBILE NAVBAR-->
+    <nav class="mobile-nav">
+      <div class="navbar">
+        <a href="index.html" class="nav-logo">ANDRÉ ALMEIDA</a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#header-mobile" class="nav-link">// home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#mobile-knowledge" class="nav-link">// knowledge</a>
+          </li>
+          <li class="nav-item">
+            <a href="#mobile-works" class="nav-link">// works</a>
+          </li>
+          <li class="nav-item">
+            <a href="#section-Contacts" class="nav-link">// contacts</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+    <!--LAPTOP NAVBAR-->
+    <nav class="lg-screen-nav nav-fixed-large">
+      <div class="lg-screen_nav">
+        <h1 class="lg-screen_nav--text">
+          André Almeida<span id="navbar_mobile--underscore"> _</span>
+        </h1>
+        <ul class="lg-screen_nav_links">
+          <li class="lg-screen_nav_item">
+            <a class="lg-screen_nav_link" href="#lg-section-MyHero">// home</a>
+          </li>
+          <li class="lg-screen_nav_item">
+            <a class="lg-screen_nav_link" href="#lg-section-MyKnowledge"
+              >// knowledge</a
+            >
+          </li>
+          <li class="lg-screen_nav_item">
+            <a class="lg-screen_nav_link" href="#lg-section-MyWorks"
+              >// works</a
+            >
+          </li>
+          <li class="lg-screen_nav_item">
+            <a class="lg-screen_nav_link" href="#section-Contacts"
+              >// contacts</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--HERO SECTION MOBILE-->
+    <div class="hero-section" id="header-mobile">
+      <img src="hero.png" class="hero-section--img" />
+      <h1 class="animate__animated animate__bounceInDown hero-section--title">
+        Hello, I'm a
+        <span class="hero-section--text-hero">HERO*</span>
+      </h1>
+      <h1 class="hero-section--subtitle">
+        <span class="hero-section--text-mark">* </span>(Developer, Coffee
+        Adicted, Surfer Wannabe & Tech Enthusiast)
+      </h1>
+      <button class="hero-section--btn">
+        <a href="#mobile-knowledge" id="find-out-more">
+          <h1 class="hero-section--btn--txt">Find out more</h1>
+          <i class="fa-sharp fa-solid fa-arrow-down"></i>
+        </a>
+      </button>
+    </div>
+    <!--HERO SECTION LARGE SCREEN-->
+    <div class="lg-screen-hero-container">
+      <div class="lg-hero-section" id="lg-section-MyHero">
+        <img src="hero.png" class="lg-hero-section--img" />
+        <div class="lg-hero-section--txt-content">
+          <h1
+            class="animate__animated animate__bounceInDown lg-hero-section--title"
+          >
+            Hello, I'm a
+            <span class="lg-hero-section--text-hero">HERO*</span>
+          </h1>
+          <h1 class="hero-section--subtitle">
+            <span class="hero-section--text-mark">* </span>(Developer, Coffee
+            Adicted, Surfer Wannabe & Tech Enthusiast)
+          </h1>
+        </div>
+      </div>
+      <a class="lg-hero-find-out-more" href="#lg-section-MyKnowledge">
+        <button class="lg-hero-section--btn">
+          <h1 class="hero-section--btn--txt">Find out more</h1>
+          <i class="fa-sharp fa-solid fa-arrow-down"></i>
+        </button>
+      </a>
+    </div>
+
+    <!--Mobile Knowledge Section-->
+    <section class="mobile-knowledge--section" id="mobile-knowledge">
+      <h1 class="mobile-knowledge--title">My Knowledge</h1>
+      <div class="mobile-knowledge--container">
+        <!--software-->
+        <div class="mobile-knowledge--software">
+          <div class="mobile-knowledge--software--first-row">
+            <img class="mobile-knowledge-software-img" src="meJavaScript.png" />
+            <h2 class="mobile-knowledge--software--first-row--txt">
+              <span id="mobile-knowledge-software--txt">Software</span>
+              Development
+            </h2>
+          </div>
+          <div class="mobile-knowledge--software--second-row">
+            <h3 class="background--txt">&lt;h3&gt;</h3>
+            <h2 class="mobile-knowledge--software--second-row--txt">
+              Mastering the art of both functional and OOP :
+              <span id="mobile-knowledge-javascript--txt">JavaScript</span>.
+            </h2>
+            <h3 class="background--txt">&lt;h3&gt;</h3>
+          </div>
+        </div>
+        <!--front end-->
+        <div class="mobile-knowledge--frontend">
+          <div class="mobile-knowledge--software--first-row">
+            <img class="mobile-knowledge-front-end-img" src="meReact.png" />
+            <h2 class="mobile-knowledge--software--first-row--txt">
+              <span class="mobile-knowledge-frontend--txt">Front-End</span>
+              Development
+            </h2>
+          </div>
+          <div class="mobile-knowledge--software--second-row">
+            <h3 class="background--txt">&lt;h3&gt;</h3>
+            <h2 class="mobile-knowledge--software--second-row--txt">
+              Dominating the art of UI/UX, passionate about creating and
+              developing, I'm currently learning
+              <span id="mobile-knowledge-reactJS--txt"> ReactJS</span>.
+            </h2>
+            <h3 class="background--txt">&lt;h3&gt;</h3>
+          </div>
+        </div>
+        <!--education-->
+        <div class="mobile-knowledge--education">
+          <div class="mobile-knowledge--software--first-row">
+            <img class="mobile-knowledge-education-img" src="meStudy.png" />
+            <h2 class="mobile-knowledge--software--first-row--txt">
+              <span class="mobile-knowledge-education--txt">My Own</span>
+              Development
+            </h2>
+          </div>
+          <div class="mobile-knowledge--software--second-row">
+            <h3 class="background--txt">&lt;h3&gt;</h3>
+            <h2 class="mobile-knowledge--software--second-row--txt">
+              <span class="mobile-knowledge-course-name--txt"
+                >Full Stack Web Developer</span
+              ><br />
+              <span class="mobile-knowledge-organization-name--txt"
+                >ZTM Academy</span
+              >
+              <br />
+              <span class="mobile-knowledge-course-name--txt"
+                >Advanced JavaScript</span
+              ><br />
+              <span class="mobile-knowledge-organization-name--txt"
+                >Jonas Schmedtmann</span
+              >
+            </h2>
+            <h3 class="background--txt">&lt;h3&gt;</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--LARGE SCREEN KNOWLEDGE SECTION-->
+    <section class="large-screen-knowledge-section" id="lg-section-MyKnowledge">
+      <h1 class="large-screen-knowledge-header-txt">My Knowledge</h1>
+      <!--software-->
+      <div class="parent">
+        <div class="div1">
+          <div class="lg-knowledge-img-container">
+            <img class="lg-knowledge-img" src="meJavaScript.png" data-src="" />
+          </div>
+        </div>
+        <div class="div2">
+          <div class="lg-knowledge-container">
+            <div class="mobile-knowledge--software--first-row">
+              <h2 class="mobile-knowledge--software--first-row--txt">
+                <span id="mobile-knowledge-software--txt">Software</span>
+                Development
+              </h2>
+            </div>
+            <div class="mobile-knowledge--software--second-row">
+              <h3 class="background--txt">&lt;h3&gt;</h3>
+              <h2 class="mobile-knowledge--software--second-row--txt">
+                Mastering the art of both functional and OOP :
+                <span id="mobile-knowledge-javascript--txt">JavaScript</span>.
+              </h2>
+              <h3 class="background--txt">&lt;h3&gt;</h3>
+            </div>
+          </div>
+        </div>
+        <!--front end-->
+        <div class="div3">
+          <div class="lg-knowledge-img-container">
+            <img class="lg-knowledge-img2" src="meReact.png" />
+          </div>
+        </div>
+        <div class="div4">
+          <div class="lg-knowledge-container">
+            <div class="mobile-knowledge--software--first-row text-align-left">
+              <h2 class="mobile-knowledge--software--first-row--txt">
+                <span class="mobile-knowledge-frontend--txt">Front-End</span>
+                Development
+              </h2>
+            </div>
+            <div class="mobile-knowledge--software--second-row text-align-left">
+              <h3 class="background--txt">&lt;h3&gt;</h3>
+              <h2
+                class="mobile-knowledge--software--second-row--txt front-end-txt"
+              >
+                Dominating the art of UI/UX, passionate about creating and
+                developing, I'm currently learning
+                <span id="mobile-knowledge-reactJS--txt"> ReactJS</span>.
+              </h2>
+              <h3 class="background--txt">&lt;h3&gt;</h3>
+            </div>
+          </div>
+        </div>
+        <!--education-->
+        <div class="div5">
+          <div class="lg-knowledge-img-container">
+            <img class="lg-knowledge-img img3" src="meStudy.png" />
+          </div>
+        </div>
+        <div class="div6">
+          <div class="lg-knowledge-container">
+            <div class="mobile-knowledge--software--first-row">
+              <h2 class="mobile-knowledge--software--first-row--txt">
+                <span class="mobile-knowledge-education--txt">My Own</span>
+                Development
+              </h2>
+            </div>
+            <div class="mobile-knowledge--software--second-row">
+              <h3 class="background--txt">&lt;h3&gt;</h3>
+              <h2 class="mobile-knowledge--software--second-row--txt">
+                <span id="course">Full Stack Web Developer</span> @Udemy - ZTM
+                Academy && <span id="course">Advanced JavaScript</span> @Udemy -
+                Jonas Schmedtmann
+              </h2>
+              <h3 class="background--txt">&lt;h3&gt;</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Mobile Works Section-->
+    <div class="mobile-section-works-full-container" id="mobile-works">
+      <h1 class="mobile-section-work-header-txt">My Work</h1>
+      <div class="mobile-section-work-cards-container">
+        <!--card 1-->
+        <a
+          href="https://andrealmeida-24.github.io/JS_Series-Clock-Timer-App/"
+          target="_blank"
+        >
+          <div class="card card-1">
+            <div
+              class="card-header"
+              style="background-image: url(timer-clock-app_2.jpg)"
+            ></div>
+            <div class="card-body">
+              <h2 class="project-name">TIMER & CLOCK APP</h2>
+              <h4 class="project-title">Web Development</h4>
+              <div class="social-accounts">
+                <i class="fa-brands fa-github works-github"></i>
+              </div>
+            </div>
+          </div>
+        </a>
+        <!--card 2-->
+        <a
+          href="https://andrealmeida-24.github.io/JS_Series-Tip-Calculator/"
+          target="_blank"
+        >
+          <div class="card card-2">
+            <div
+              class="card-header"
+              style="background-image: url(tip-calculator-app.jpg)"
+            ></div>
+            <div class="card-body">
+              <h2 class="project-name">TIP CALCULATOR APP</h2>
+              <h4 class="project-title">Web Development</h4>
+              <div class="social-accounts">
+                <i class="fa-brands fa-github works-github"></i>
+              </div>
+            </div>
+          </div>
+        </a>
+        <!--card 3-->
+        <a
+          href="https://andrealmeida-24.github.io/JS_Series-Dice-Game/"
+          target="_blank"
+        >
+          <div class="card card-3">
+            <div
+              class="card-header"
+              style="background-image: url(dice-game-app_2.jpg)"
+            ></div>
+            <div class="card-body">
+              <h2 class="project-name">DICE GAME APP</h2>
+              <h4 class="project-title">Web Development</h4>
+              <div class="social-accounts">
+                <i class="fa-brands fa-github works-github"></i>
+              </div>
+            </div>
+          </div>
+        </a>
+        <!--card 4-->
+        <a
+          href="https://andrealmeida-24.github.io/JS_Series-To-Do-List/"
+          target="_blank"
+        >
+          <div class="card card-4">
+            <div
+              class="card-header"
+              style="background-image: url(to-do-list-app.jpg)"
+            ></div>
+            <div class="card-body">
+              <h2 class="project-name">TO DO LIST APP</h2>
+              <h4 class="project-title">Web Development</h4>
+              <div class="social-accounts">
+                <i class="fa-brands fa-github works-github"></i>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!--Large Screen Works-->
+    <section class="lg-screen-works-section-container" id="lg-section-MyWorks">
+      <h2 class="lg-screen-works-text">My Works</h2>
+      <div class="parent-work">
+        <div class="work-div1">
+          <a
+            href="https://andrealmeida-24.github.io/JS_Series-Clock-Timer-App/"
+            target="_blank"
+          >
+            <div class="card card-1">
+              <div
+                class="card-header card1-header"
+                style="background-image: url(timer-clock-app_2.jpg)"
+              ></div>
+              <div class="card-body">
+                <h2 class="project-name">TIMER & CLOCK APP</h2>
+                <h4 class="project-title">Web Development</h4>
+                <div class="social-accounts">
+                  <i class="fa-brands fa-github works-github"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="work-div2">
+          <a
+            href="https://andrealmeida-24.github.io/JS_Series-Tip-Calculator/"
+            target="_blank"
+          >
+            <div class="card card-2">
+              <div
+                class="card-header card1-header"
+                style="background-image: url(tip-calculator-app.jpg)"
+              ></div>
+              <div class="card-body">
+                <h2 class="project-name">TIP CALCULATOR APP</h2>
+                <h4 class="project-title">Web Development</h4>
+                <div class="social-accounts">
+                  <i class="fa-brands fa-github works-github"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="work-div3">
+          <a
+            href="https://andrealmeida-24.github.io/JS_Series-Dice-Game/"
+            target="_blank"
+          >
+            <div class="card card-3">
+              <div
+                class="card-header card2-header"
+                style="background-image: url(dice-game-app_2.jpg)"
+              ></div>
+              <div class="card-body">
+                <h2 class="project-name">DICE GAME APP</h2>
+                <h4 class="project-title">Web Development</h4>
+                <div class="social-accounts">
+                  <i class="fa-brands fa-github works-github"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="work-div4">
+          <a
+            href="https://andrealmeida-24.github.io/JS_Series-To-Do-List/"
+            target="_blank"
+          >
+            <div class="card card-4">
+              <div
+                class="card-header card2-header"
+                style="background-image: url(to-do-list-app.jpg)"
+              ></div>
+              <div class="card-body">
+                <h2 class="project-name">TO DO LIST APP</h2>
+                <h4 class="project-title">Web Development</h4>
+                <div class="social-accounts">
+                  <i class="fa-brands fa-github works-github"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!--Footer Section-->
+    <div class="footer-section-full-container" id="section-Contacts">
+      <hr id="footer-line" />
+      <h1 class="footer-section-first-txt">Available for job opportunities.</h1>
+      <h1 class="footer-section-second-txt">
+        Have a project you need help with? <br />
+        <span id="footer-bold-txt">Contact me!</span>
+      </h1>
+      <h1 class="footer-section-email-txt">andrealmeida.webdev@gmail.com</h1>
+      <div class="footer-links">
+        <a
+          href="https://www.linkedin.com/in/andr%C3%A9-almeida-9a4150243/
+        "
+          target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/andrealmeida-24" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.freecodecamp.org/andre_almeida24" target="_blank">
+          <i class="fa-brands fa-free-code-camp"></i>
+        </a>
+      </div>
+
+      <div class="footer-links-lg">
+        <a
+          href="https://www.linkedin.com/in/andr%C3%A9-almeida-9a4150243/
+        "
+          target="_blank"
+          ><h2 class="lg-footer-links">LinkedIn</h2></a
+        >
+        <a href="https://github.com/andrealmeida-24" target="_blank"
+          ><h2 class="lg-footer-links">GitHub</h2></a
+        >
+        <a href="https://www.freecodecamp.org/andre_almeida24" target="_blank"
+          ><h2 class="lg-footer-links">Free Code Camp</h2></a
+        >
+      </div>
+
+      <div class="footer-love">
+        <h2 class="footer-love-txt">Handcrafted by me ©André Almeida</h2>
+      </div>
+    </div>
+    <!--SCROLL TO TOP FIXED BUTTON MOBILE-->
+    <button class="scroll-to-top-fixed-btn hidden">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <script src="script.js"></script>
+  </body>
+</html>
